@@ -8,15 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      border: {
-        t: {
-          w: "30px",
-        },
-      },
       colors: {
         primary: {
-          DEFAULT: "#0E51AC",
-          dark: "#217FFF",
+          DEFAULT: "#217FFF",
+          dark: "#0E51AC",
           light: "#F5F5F5",
         },
         dark: {

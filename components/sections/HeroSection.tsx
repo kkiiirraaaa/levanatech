@@ -24,9 +24,9 @@ export default function HeroSection({ ctaText }: HeroSectionProps) {
           {/* Left Content */}
           <div>
             <h1 className="text-3xl md:text-3xl lg:text-5xl font-bold pt-4 pl-7 pb-4">
-              Build <span className="text-primary-dark"> Trust </span> Through a
+              Build <span className="text-primary"> Trust </span> Through a
               <br />
-              Professional <span className="text-primary-dark"> Website </span> for <br />
+              Professional <span className="text-primary"> Website </span> for <br />
                Your Business.
             </h1>
             <p className="text-primary-light text-lg  pl-7 pb-4">

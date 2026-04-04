@@ -67,6 +67,91 @@
         "Cocok Untuk",
         "Cocok Untuk"
       ]
-    }
+    },
+    {
+      "id": "5",
+      "name": "Basic Presence",
+      "category": "Business Package",
+      "description": "Cocok Untuk Influencer atau personal yang membutuhkan website simpel agar lebih profesional",
+      "price": 700000,
+      "isPopular": false,
+      "features": [
+        "1 Halaman",
+        "3 Section Utama",
+        "Cocok Untuk",
+        "Cocok Untuk",
+        "Cocok Untuk",
+        "Cocok Untuk",
+        "Cocok Untuk"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Personal Branding Starter",
+      "category": "Personal Branding Package",
+      "description": "Cocok Untuk slebew kapn selesainya ini",
+      "price": 1500000,
+      "isPopular": true,
+      "features": [
+        "1 Halaman",
+        "5 Section Utama",
+        "Cocok Untuk",
+        "Cocok Untuk",
+        "Cocok Untuk",
+        "Cocok Untuk",
+        "Cocok Untuk"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Basic Presence",
+      "category": "Business Package",
+      "description": "Cocok Untuk Influencer atau personal yang membutuhkan website simpel agar lebih profesional",
+      "price": 700000,
+      "isPopular": false,
+      "features": [
+        "1 Halaman",
+        "3 Section Utama",
+        "Cocok Untuk",
+        "Cocok Untuk",
+        "Cocok Untuk",
+        "Cocok Untuk",
+        "Cocok Untuk"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Autority / Premium",
+      "category": "Visual & Design",
+      "description": "Cocok Untuk Lorem Ipsum Dorel Sit Amet",
+      "price": 5000000,
+      "isPopular": false,
+      "features": [
+        "Cocok Untuk",
+        "Cocok Untuk",
+        "Cocok Untuk",
+        "Cocok Untuk",
+        "Cocok Untuk",
+        "Cocok Untuk",
+        "Cocok Untuk"
+      ]
+    },
+      {
+        "id": "9",
+        "name": "Autority / Premium",
+        "category": "Visual & Design",
+        "description": "Cocok Untuk Lorem Ipsum Dorel Sit Amet",
+        "price": 5000000,
+        "isPopular": false,
+        "features": [
+          "Cocok Untuk",
+          "Cocok Untuk",
+          "Cocok Untuk",
+          "Cocok Untuk",
+          "Cocok Untuk",
+          "Cocok Untuk",
+          "Cocok Untuk"
+        ]
+      }
   ]
 }

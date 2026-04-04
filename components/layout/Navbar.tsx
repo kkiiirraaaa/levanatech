@@ -37,15 +37,14 @@ export default function Navbar({ settings }: NavbarProps) {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
               <Image
                     src="/images/logo-levana.png"
                     alt="Levana Logo"
                     fill
-                    className="object-cover object-center"
+                    className="w-8 h-10 sm:w-10 sm:h-12 md:w-12 md:h-14"
                     priority
                   />
-            </div>
+          
           </Link>
 
           {/* Desktop Navigation */}
