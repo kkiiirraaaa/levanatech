@@ -1,0 +1,134 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+collections:
+  # Settings
+  - name: "settings"
+    label: "Settings"
+    files:
+      - name: "general"
+        label: "General Settings"
+        file: "content/settings/general.json"
+        fields:
+          - { label: "Company Name", name: "companyName", widget: "string" }
+          - { label: "Company Description", name: "companyDescription", widget: "text" }
+          - { label: "WhatsApp Number", name: "whatsappNumber", widget: "string", hint: "Format: 6287007449733" }
+          - { label: "Business Email", name: "businessEmail", widget: "string" }
+          - { label: "CTA Button Text", name: "ctaText", widget: "string" }
+          - label: "Social Media"
+            name: "socialMedia"
+            widget: "object"
+            fields:
+              - { label: "Instagram URL", name: "instagram", widget: "string", required: false }
+              - { label: "LinkedIn URL", name: "linkedin", widget: "string", required: false }
+              - { label: "Facebook URL", name: "facebook", widget: "string", required: false }
+              - { label: "GitHub URL", name: "github", widget: "string", required: false }
+
+      - name: "faq"
+        label: "FAQ Settings"
+        file: "content/settings/faq.json"
+        fields:
+          - label: "FAQs"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - { label: "ID", name: "id", widget: "string" }
+              - { label: "Question", name: "question", widget: "string" }
+              - { label: "Answer", name: "answer", widget: "text" }
+
+  # About
+  - name: "about"
+    label: "About"
+    files:
+      - name: "about"
+        label: "About Page"
+        file: "content/about/index.json"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
+          - { label: "Image", name: "image", widget: "image", required: false }
+          - label: "Stats"
+            name: "stats"
+            widget: "object"
+            fields:
+              - { label: "Availability", name: "availability", widget: "string", hint: "e.g., 24/7" }
+              - { label: "Projects", name: "projects", widget: "string", hint: "e.g., 10+" }
+              - { label: "Satisfaction", name: "satisfaction", widget: "string", hint: "e.g., 98%" }
+
+  # Services
+  - name: "services"
+    label: "Services"
+    files:
+      - name: "services"
+        label: "Services List"
+        file: "content/services/services.json"
+        fields:
+          - label: "Services"
+            name: "services"
+            widget: "list"
+            fields:
+              - { label: "ID", name: "id", widget: "string" }
+              - { label: "Icon", name: "icon", widget: "select", options: ["globe", "users", "compass"] }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+
+  # Packages
+  - name: "packages"
+    label: "Packages"
+    files:
+      - name: "packages"
+        label: "Package List"
+        file: "content/packages/packages.json"
+        fields:
+          - label: "Packages"
+            name: "packages"
+            widget: "list"
+            fields:
+              - { label: "ID", name: "id", widget: "string" }
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Price", name: "price", widget: "number" }
+              - { label: "Is Popular", name: "isPopular", widget: "boolean", default: false }
+              - label: "Features"
+                name: "features"
+                widget: "list"
+                field: { label: "Feature", name: "feature", widget: "string" }
+
+  # Team
+  - name: "team"
+    label: "Team Members"
+    folder: "content/team"
+    create: true
+    slug: "{{slug}}"
+    extension: "json"
+    format: "json"
+    fields:
+      - { label: "ID", name: "id", widget: "string" }
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Position", name: "position", widget: "string" }
+      - { label: "Photo", name: "photo", widget: "image" }
+      - { label: "Description", name: "description", widget: "text", required: false }
+      - { label: "LinkedIn URL", name: "linkedin", widget: "string", required: false }
+
+  # Testimonials
+  - name: "testimonials"
+    label: "Testimonials"
+    files:
+      - name: "testimonials"
+        label: "Testimonials List"
+        file: "content/testimonials/testimonials.json"
+        fields:
+          - label: "Testimonials"
+            name: "testimonials"
+            widget: "list"
+            fields:
+              - { label: "ID", name: "id", widget: "string" }
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Position", name: "position", widget: "string" }
+              - { label: "Photo", name: "photo", widget: "image" }
+              - { label: "Rating", name: "rating", widget: "number", min: 1, max: 5 }
+              - { label: "Content", name: "content", widget: "text" }

@@ -1,0 +1,22 @@
+{
+  "services": [
+    {
+      "id": "1",
+      "icon": "globe",
+      "title": "Personal Branding Website",
+      "description": "A professional website that showcases your expertise, story, and achievements -- helping you build credibility and stand out in your industry."
+    },
+    {
+      "id": "2",
+      "icon": "users",
+      "title": "Business Website Strategic",
+      "description": "A structured website designed to communicate your business value clarity and turn visitors into potential customers."
+    },
+    {
+      "id": "3",
+      "icon": "compass",
+      "title": "Brand & Visual Design",
+      "description": "Strategic visual design that build a recognizeable and consistent brand across your diital presence."
+    }
+  ]
+}

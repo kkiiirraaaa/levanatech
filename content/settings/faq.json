@@ -1,0 +1,34 @@
+{
+  "faqs": [
+    {
+      "id": "1",
+      "question": "Apa fokus utama dari Levana Techology?",
+      "answer": "Levana Technology fokus pada pembuatan website personal branding yang membantu kreator dan solopreneur membangun kredibilitas dan kepercayaan digital."
+    },
+    {
+      "id": "2",
+      "question": "Berapa lama proses pembuatan website?",
+      "answer": "Tergantung paket yang dipilih, umumnya 2-4 minggu dari konsultasi awal hingga website live."
+    },
+    {
+      "id": "3",
+      "question": "Apakah saya bisa update konten sendiri?",
+      "answer": "Ya, kami menyediakan CMS yang mudah digunakan sehingga Anda bisa update konten tanpa perlu coding."
+    },
+    {
+      "id": "4",
+      "question": "Apakah ada support setelah website selesai?",
+      "answer": "Tentu! Kami menyediakan support teknis dan maintenance untuk memastikan website Anda berjalan optimal."
+    },
+    {
+      "id": "5",
+      "question": "Apa yang membedakan Levana dengan agency lain?",
+      "answer": "Kami fokus pada personal branding yang strategis, bukan hanya desain cantik. Setiap elemen dirancang untuk membangun kepercayaan dan konversi."
+    },
+    {
+      "id": "6",
+      "question": "Apakah website mobile-friendly?",
+      "answer": "Semua website yang kami buat sudah responsive dan dioptimasi untuk semua perangkat (desktop, tablet, mobile)."
+    }
+  ]
+}

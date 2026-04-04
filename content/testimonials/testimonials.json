@@ -1,0 +1,52 @@
+{
+  "testimonials": [
+    {
+      "id": "1",
+      "name": "Syakira Kha",
+      "position": "Freelance Designer",
+      "photo": "/uploads/testimonial-1.jpg",
+      "rating": 5,
+      "content": "Suka banget sama hasilnya! Nggak cuma cakep desainnya, tapi beneran ngebantu orang paham apa yang aku tawarih tanpa harus jelasin panjang lebar. Worth it banget."
+    },
+    {
+      "id": "2",
+      "name": "Syakira Kha",
+      "position": "Freelance Designer",
+      "photo": "/uploads/testimonial-2.jpg",
+      "rating": 5,
+      "content": "Suka banget sama hasilnya! Nggak cuma cakep desainnya, tapi beneran ngebantu orang paham apa yang aku tawarih tanpa harus jelasin panjang lebar. Worth it banget."
+    },
+    {
+      "id": "3",
+      "name": "Syakira Kha",
+      "position": "Freelance Designer",
+      "photo": "/uploads/testimonial-3.jpg",
+      "rating": 5,
+      "content": "Suka banget sama hasilnya! Nggak cuma cakep desainnya, tapi beneran ngebantu orang paham apa yang aku tawarih tanpa harus jelasin panjang lebar. Worth it banget."
+    },
+    {
+      "id": "4",
+      "name": "Syakira Kha",
+      "position": "Freelance Designer",
+      "photo": "/uploads/testimonial-1.jpg",
+      "rating": 5,
+      "content": "Suka banget sama hasilnya! Nggak cuma cakep desainnya, tapi beneran ngebantu orang paham apa yang aku tawarih tanpa harus jelasin panjang lebar. Worth it banget."
+    },
+    {
+      "id": "5",
+      "name": "Syakira Kha",
+      "position": "Freelance Designer",
+      "photo": "/uploads/testimonial-2.jpg",
+      "rating": 5,
+      "content": "Suka banget sama hasilnya! Nggak cuma cakep desainnya, tapi beneran ngebantu orang paham apa yang aku tawarih tanpa harus jelasin panjang lebar. Worth it banget."
+    },
+    {
+      "id": "6",
+      "name": "Syakira Kha",
+      "position": "Freelance Designer",
+      "photo": "/uploads/testimonial-3.jpg",
+      "rating": 5,
+      "content": "Suka banget sama hasilnya! Nggak cuma cakep desainnya, tapi beneran ngebantu orang paham apa yang aku tawarih tanpa harus jelasin panjang lebar. Worth it banget."
+    }
+  ]
+}
