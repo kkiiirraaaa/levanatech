@@ -3,8 +3,7 @@
     {
       "id": "1",
       "name": "Basic Presence",
-      "category": "Business Package",
-      "description": "Cocok Untuk Influencer atau personal yang membutuhkan website simpel agar lebih profesional",
+      "description": "Cocok bismilla bisa",
       "price": 700000,
       "isPopular": false,
       "features": [
@@ -15,12 +14,12 @@
         "Cocok Untuk",
         "Cocok Untuk",
         "Cocok Untuk"
-      ]
+      ],
+      "category": "Business Package"
     },
     {
       "id": "2",
       "name": "Personal Branding Starter",
-      "category": "Personal Branding Package",
       "description": "Cocok Untuk slebew kapn selesainya ini",
       "price": 1500000,
       "isPopular": true,
@@ -32,12 +31,12 @@
         "Cocok Untuk",
         "Cocok Untuk",
         "Cocok Untuk"
-      ]
+      ],
+      "category": "Personal Branding Package"
     },
     {
       "id": "3",
       "name": "Personal Branding Pro",
-      "category": "Personal Branding Package",
       "description": "Cocok Untuk Lorem Ipsum Dorel Sit Amet",
       "price": 3489000,
       "isPopular": false,
@@ -49,12 +48,12 @@
         "Cocok Untuk",
         "Cocok Untuk",
         "Cocok Untuk"
-      ]
+      ],
+      "category": "Personal Branding Package"
     },
     {
       "id": "4",
       "name": "Autority / Premium",
-      "category": "Visual & Design",
       "description": "Cocok Untuk Lorem Ipsum Dorel Sit Amet",
       "price": 5000000,
       "isPopular": false,
@@ -66,12 +65,12 @@
         "Cocok Untuk",
         "Cocok Untuk",
         "Cocok Untuk"
-      ]
+      ],
+      "category": "Visual & Design"
     },
     {
       "id": "5",
       "name": "Basic Presence",
-      "category": "Business Package",
       "description": "Cocok Untuk Influencer atau personal yang membutuhkan website simpel agar lebih profesional",
       "price": 700000,
       "isPopular": false,
@@ -83,12 +82,12 @@
         "Cocok Untuk",
         "Cocok Untuk",
         "Cocok Untuk"
-      ]
+      ],
+      "category": "Business Package"
     },
     {
       "id": "6",
       "name": "Personal Branding Starter",
-      "category": "Personal Branding Package",
       "description": "Cocok Untuk slebew kapn selesainya ini",
       "price": 1500000,
       "isPopular": true,
@@ -100,12 +99,12 @@
         "Cocok Untuk",
         "Cocok Untuk",
         "Cocok Untuk"
-      ]
+      ],
+      "category": "Personal Branding Package"
     },
     {
       "id": "7",
       "name": "Basic Presence",
-      "category": "Business Package",
       "description": "Cocok Untuk Influencer atau personal yang membutuhkan website simpel agar lebih profesional",
       "price": 700000,
       "isPopular": false,
@@ -117,12 +116,12 @@
         "Cocok Untuk",
         "Cocok Untuk",
         "Cocok Untuk"
-      ]
+      ],
+      "category": "Business Package"
     },
     {
       "id": "8",
       "name": "Autority / Premium",
-      "category": "Visual & Design",
       "description": "Cocok Untuk Lorem Ipsum Dorel Sit Amet",
       "price": 5000000,
       "isPopular": false,
@@ -134,24 +133,25 @@
         "Cocok Untuk",
         "Cocok Untuk",
         "Cocok Untuk"
-      ]
+      ],
+      "category": "Visual & Design"
     },
-      {
-        "id": "9",
-        "name": "Autority / Premium",
-        "category": "Visual & Design",
-        "description": "Cocok Untuk Lorem Ipsum Dorel Sit Amet",
-        "price": 5000000,
-        "isPopular": false,
-        "features": [
-          "Cocok Untuk",
-          "Cocok Untuk",
-          "Cocok Untuk",
-          "Cocok Untuk",
-          "Cocok Untuk",
-          "Cocok Untuk",
-          "Cocok Untuk"
-        ]
-      }
+    {
+      "id": "9",
+      "name": "Autority / Premium",
+      "description": "Cocok Untuk Lorem Ipsum Dorel Sit Amet",
+      "price": 5000000,
+      "isPopular": false,
+      "features": [
+        "Cocok Untuk",
+        "Cocok Untuk",
+        "Cocok Untuk",
+        "Cocok Untuk",
+        "Cocok Untuk",
+        "Cocok Untuk",
+        "Cocok Untuk"
+      ],
+      "category": "Visual & Design"
+    }
   ]
 }
