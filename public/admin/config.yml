@@ -1,6 +1,9 @@
 backend:
-  name: git-gateway
-  branch: main
+  name: github
+  repo: username/nama-repo
+  branch: master
+  base_url: https://levanatech.vercel.app
+  auth_endpoint: /api/auth
 
 media_folder: "public/uploads"
 public_folder: "/uploads"
