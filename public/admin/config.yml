@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: kkiiirraaaa/levanatech
-  branch: master
+  branch: main
   base_url: https://levanatech.vercel.app
   auth_endpoint: /api/auth
 
