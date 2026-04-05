@@ -30,8 +30,8 @@ export default function Footer({ settings }: FooterProps) {
             <Image
               src="/images/logo-levana.png"
               alt="Levana Logo"
-              width={180}
-              height={180}
+             width={160}
+                           height={160}
               className="object-contain"
             />
           </Link>

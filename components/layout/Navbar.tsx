@@ -48,8 +48,8 @@ export default function Navbar({ settings }: NavbarProps) {
             <Image
               src="/images/logo-levana.png"
               alt="Levana Logo"
-              width={180}
-              height={180}
+              width={160}
+              height={160}
               className="object-contain"
             />
           </Link>
