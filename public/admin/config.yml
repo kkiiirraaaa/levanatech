@@ -2,8 +2,6 @@ backend:
   name: github
   repo: kkiiirraaaa/levanatech
   branch: main
-  base_url: https://levanatech.vercel.app
-  auth_endpoint: /api/auth
 
 media_folder: "public/uploads"
 public_folder: "/uploads"
