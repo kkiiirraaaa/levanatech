@@ -19,18 +19,12 @@
     },
     {
       "id": "2",
-      "name": "Personal Branding Starter",
-      "description": "Cocok Untuk slebew kapn selesainya ini",
-      "price": 1500000,
-      "isPopular": true,
+      "name": "Paket Akan Segera Tersedia",
+      "description": "Paket akan segera tersedia.",
+      "price": 0,
+      "isPopular": false,
       "features": [
-        "1 Halaman",
-        "5 Section Utama",
-        "Cocok Untuk",
-        "Cocok Untuk",
-        "Cocok Untuk",
-        "Cocok Untuk",
-        "Cocok Untuk"
+        "Paket akan segera tersedia."
       ],
       "category": "Personal Branding Package"
     },
